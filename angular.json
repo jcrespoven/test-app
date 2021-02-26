@@ -144,7 +144,12 @@
           "options": {
             "outputPath": "dist/test-app/server",
             "main": "server.ts",
-            "tsConfig": "tsconfig.server.json"
+            "tsConfig": "tsconfig.server.json",
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules/bootstrap/scss"
+              ]
+            },
           },
           "configurations": {
             "production": {
