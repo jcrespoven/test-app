@@ -2,3 +2,10 @@
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap';
+
+/* Conthrax Font */
+@font-face {
+    font-family: 'conthrax-sb';
+    font-display: swap;
+    src: url('/assets/fonts/ConthraxSb-Regular.woff2') format('woff2');
+}
